@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4A049BEB23D58B350040A18F /* ExampleSwiftLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A049BE923D58B350040A18F /* ExampleSwiftLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A049BF823D58B880040A18F /* ExampleSwiftLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A049BF723D58B880040A18F /* ExampleSwiftLibTests.swift */; };
-		4A049BFA23D58B880040A18F /* ExampleSwiftLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A049BE623D58B350040A18F /* ExampleSwiftLib.framework */; };
 		4A049C0723D58C0D0040A18F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A049C0623D58C0D0040A18F /* AppDelegate.swift */; };
 		4A049C0923D58C0D0040A18F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A049C0823D58C0D0040A18F /* SceneDelegate.swift */; };
 		4A049C0B23D58C0D0040A18F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A049C0A23D58C0D0040A18F /* ViewController.swift */; };
 		4A049C0E23D58C0D0040A18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A049C0C23D58C0D0040A18F /* Main.storyboard */; };
 		4A049C1023D58C110040A18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A049C0F23D58C110040A18F /* Assets.xcassets */; };
 		4A049C1323D58C110040A18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A049C1123D58C110040A18F /* LaunchScreen.storyboard */; };
+		4A049C1A23D58D190040A18F /* MathLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A049C1923D58D190040A18F /* MathLib.swift */; };
+		4A049C2423D5944A0040A18F /* ExampleSwiftLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A049C2323D5944A0040A18F /* ExampleSwiftLibTests.swift */; };
+		4A049C2623D5944A0040A18F /* ExampleSwiftLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A049BE623D58B350040A18F /* ExampleSwiftLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A049BFB23D58B880040A18F /* PBXContainerItemProxy */ = {
+		4A049C2723D5944A0040A18F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A049BDD23D58B350040A18F /* Project object */;
 			proxyType = 1;
@@ -32,9 +33,6 @@
 		4A049BE623D58B350040A18F /* ExampleSwiftLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwiftLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A049BE923D58B350040A18F /* ExampleSwiftLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleSwiftLib.h; sourceTree = "<group>"; };
 		4A049BEA23D58B350040A18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A049BF523D58B880040A18F /* ExampleSwiftLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleSwiftLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A049BF723D58B880040A18F /* ExampleSwiftLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftLibTests.swift; sourceTree = "<group>"; };
-		4A049BF923D58B880040A18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A049C0423D58C0D0040A18F /* ExampleSwiftLibApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleSwiftLibApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A049C0623D58C0D0040A18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A049C0823D58C0D0040A18F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +41,10 @@
 		4A049C0F23D58C110040A18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A049C1223D58C110040A18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A049C1423D58C110040A18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A049C1923D58D190040A18F /* MathLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLib.swift; sourceTree = "<group>"; };
+		4A049C2123D5944A0040A18F /* ExampleSwiftLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleSwiftLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A049C2323D5944A0040A18F /* ExampleSwiftLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftLibTests.swift; sourceTree = "<group>"; };
+		4A049C2523D5944A0040A18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,18 +55,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A049BF223D58B880040A18F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A049BFA23D58B880040A18F /* ExampleSwiftLib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A049C0123D58C0D0040A18F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A049C1E23D5944A0040A18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A049C2623D5944A0040A18F /* ExampleSwiftLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				4A049BE823D58B350040A18F /* ExampleSwiftLib */,
-				4A049BF623D58B880040A18F /* ExampleSwiftLibTests */,
 				4A049C0523D58C0D0040A18F /* ExampleSwiftLibApp */,
+				4A049C2223D5944A0040A18F /* ExampleSwiftLibTests */,
 				4A049BE723D58B350040A18F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				4A049BE623D58B350040A18F /* ExampleSwiftLib.framework */,
-				4A049BF523D58B880040A18F /* ExampleSwiftLibTests.xctest */,
 				4A049C0423D58C0D0040A18F /* ExampleSwiftLibApp.app */,
+				4A049C2123D5944A0040A18F /* ExampleSwiftLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,19 +96,11 @@
 		4A049BE823D58B350040A18F /* ExampleSwiftLib */ = {
 			isa = PBXGroup;
 			children = (
+				4A049C1823D58CF20040A18F /* Classes */,
 				4A049BE923D58B350040A18F /* ExampleSwiftLib.h */,
 				4A049BEA23D58B350040A18F /* Info.plist */,
 			);
 			path = ExampleSwiftLib;
-			sourceTree = "<group>";
-		};
-		4A049BF623D58B880040A18F /* ExampleSwiftLibTests */ = {
-			isa = PBXGroup;
-			children = (
-				4A049BF723D58B880040A18F /* ExampleSwiftLibTests.swift */,
-				4A049BF923D58B880040A18F /* Info.plist */,
-			);
-			path = ExampleSwiftLibTests;
 			sourceTree = "<group>";
 		};
 		4A049C0523D58C0D0040A18F /* ExampleSwiftLibApp */ = {
@@ -121,6 +115,23 @@
 				4A049C1423D58C110040A18F /* Info.plist */,
 			);
 			path = ExampleSwiftLibApp;
+			sourceTree = "<group>";
+		};
+		4A049C1823D58CF20040A18F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A049C1923D58D190040A18F /* MathLib.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A049C2223D5944A0040A18F /* ExampleSwiftLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A049C2323D5944A0040A18F /* ExampleSwiftLibTests.swift */,
+				4A049C2523D5944A0040A18F /* Info.plist */,
+			);
+			path = ExampleSwiftLibTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,24 +166,6 @@
 			productReference = 4A049BE623D58B350040A18F /* ExampleSwiftLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4A049BF423D58B880040A18F /* ExampleSwiftLibTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4A049BFD23D58B880040A18F /* Build configuration list for PBXNativeTarget "ExampleSwiftLibTests" */;
-			buildPhases = (
-				4A049BF123D58B880040A18F /* Sources */,
-				4A049BF223D58B880040A18F /* Frameworks */,
-				4A049BF323D58B880040A18F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4A049BFC23D58B880040A18F /* PBXTargetDependency */,
-			);
-			name = ExampleSwiftLibTests;
-			productName = ExampleSwiftLibTests;
-			productReference = 4A049BF523D58B880040A18F /* ExampleSwiftLibTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		4A049C0323D58C0D0040A18F /* ExampleSwiftLibApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A049C1523D58C110040A18F /* Build configuration list for PBXNativeTarget "ExampleSwiftLibApp" */;
@@ -190,23 +183,43 @@
 			productReference = 4A049C0423D58C0D0040A18F /* ExampleSwiftLibApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4A049C2023D5944A0040A18F /* ExampleSwiftLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A049C2923D5944A0040A18F /* Build configuration list for PBXNativeTarget "ExampleSwiftLibTests" */;
+			buildPhases = (
+				4A049C1D23D5944A0040A18F /* Sources */,
+				4A049C1E23D5944A0040A18F /* Frameworks */,
+				4A049C1F23D5944A0040A18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A049C2823D5944A0040A18F /* PBXTargetDependency */,
+			);
+			name = ExampleSwiftLibTests;
+			productName = ExampleSwiftLibTests;
+			productReference = 4A049C2123D5944A0040A18F /* ExampleSwiftLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4A049BDD23D58B350040A18F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "topik mujianto";
 				TargetAttributes = {
 					4A049BE523D58B350040A18F = {
 						CreatedOnToolsVersion = 11.2.1;
-					};
-					4A049BF423D58B880040A18F = {
-						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					4A049C0323D58C0D0040A18F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					4A049C2023D5944A0040A18F = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -225,21 +238,14 @@
 			projectRoot = "";
 			targets = (
 				4A049BE523D58B350040A18F /* ExampleSwiftLib */,
-				4A049BF423D58B880040A18F /* ExampleSwiftLibTests */,
 				4A049C0323D58C0D0040A18F /* ExampleSwiftLibApp */,
+				4A049C2023D5944A0040A18F /* ExampleSwiftLibTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4A049BE423D58B350040A18F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A049BF323D58B880040A18F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,6 +262,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A049C1F23D5944A0040A18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,14 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A049BF123D58B880040A18F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A049BF823D58B880040A18F /* ExampleSwiftLibTests.swift in Sources */,
+				4A049C1A23D58D190040A18F /* MathLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +290,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A049C1D23D5944A0040A18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A049C2423D5944A0040A18F /* ExampleSwiftLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4A049BFC23D58B880040A18F /* PBXTargetDependency */ = {
+		4A049C2823D5944A0040A18F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4A049BE523D58B350040A18F /* ExampleSwiftLib */;
-			targetProxy = 4A049BFB23D58B880040A18F /* PBXContainerItemProxy */;
+			targetProxy = 4A049C2723D5944A0040A18F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,6 +451,7 @@
 		4A049BEF23D58B350040A18F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -453,6 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = feebe.ExampleSwiftLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +477,7 @@
 		4A049BF023D58B350040A18F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -477,40 +494,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = feebe.ExampleSwiftLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		4A049BFE23D58B880040A18F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ExampleSwiftLibTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = feebe.ExampleSwiftLibTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4A049BFF23D58B880040A18F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ExampleSwiftLibTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = feebe.ExampleSwiftLibTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -550,6 +533,40 @@
 			};
 			name = Release;
 		};
+		4A049C2A23D5944A0040A18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleSwiftLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = feebe.ExampleSwiftLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A049C2B23D5944A0040A18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleSwiftLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = feebe.ExampleSwiftLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,20 +588,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A049BFD23D58B880040A18F /* Build configuration list for PBXNativeTarget "ExampleSwiftLibTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A049BFE23D58B880040A18F /* Debug */,
-				4A049BFF23D58B880040A18F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4A049C1523D58C110040A18F /* Build configuration list for PBXNativeTarget "ExampleSwiftLibApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A049C1623D58C110040A18F /* Debug */,
 				4A049C1723D58C110040A18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A049C2923D5944A0040A18F /* Build configuration list for PBXNativeTarget "ExampleSwiftLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A049C2A23D5944A0040A18F /* Debug */,
+				4A049C2B23D5944A0040A18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
